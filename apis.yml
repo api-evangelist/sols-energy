@@ -1,7 +1,24 @@
 aid: sols-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sols-energy.png
 name: SOLS Energy
-description: SOLS Energy is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SOLS Energy is Malaysia's leading residential and commercial solar energy company, on a
+  mission to make green energy a basic human right. It has completed more than 8,900 solar installations
+  across Malaysia spanning residential (Green Homes), commercial (Green Business), and off-grid indigenous
+  community projects (Green Impact), and also offers EV charging (ChargeSingh) and a Solar Academy
+  apprenticeship program. The company is a portfolio company of 500 Global. As of this enrichment pass
+  SOLS Energy publishes a consumer marketing website (blog, FAQ, contact, privacy and terms pages) but
+  no public developer platform, API, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/sols-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar
+- Energy
+- Renewable Energy
+- Sustainability
+- Clean Energy
+- EV Charging
+- Malaysia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://solsenergy.com
+- type: Blog
+  url: https://solsenergy.com/blog
+- type: Support
+  url: https://solsenergy.com/contact
+- type: PrivacyPolicy
+  url: https://solsenergy.com/privacy
+- type: TermsOfService
+  url: https://solsenergy.com/terms-and-conditions
+- type: DomainSecurity
+  url: security/sols-energy-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
